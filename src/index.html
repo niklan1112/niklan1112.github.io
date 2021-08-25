@@ -51,21 +51,21 @@
     </div>
     <div class="WhatCanIDo">
         <h2>Что я умею</h2>
-        <div class="images_with_text">
-            <table border="1">
-                <tr>
-                    <th>Веб-дизайн</th>
-                    <th>Разработка</th>
-                    <th>CEO-Оптимизация</th>
-                    <th>Маркетинг</th>
-                </tr>
-                <tr>
-                    <th>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, quam!</th>
-                    <th>Lorem ipsum dolor sit amet, consectetur.</th>
-                    <th>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, eligendi nihil itaque.</th>
-                    <th>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit similique laudantium quia eum sapiente mollitia.</th>
-                </tr>
-            </table>
+        <div class="webdesign">
+            <h4>Веб-дизайн</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, officiis.</span>
+        </div>
+        <div class="development">
+            <h4>Разработка</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni aut, cupiditate nemo.</span>
+        </div>
+        <div class="optimisation">
+            <h4>СЕО-Оптимизация</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quam beatae, rerum ratione dicta cumque!</span>
+        </div>
+        <div class="marketing">
+            <h4>Маркетинг</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, error labore necessitatibus iste aliquam numquam animi beatae.</span>
         </div>
     </div>
 
@@ -87,11 +87,11 @@
         </div>
         <h3>ДИЗАЙН</h3>
         <div>
-           <select name="list2" id="list">
-               <option value="cool">Крутой</option>
-               <option value="beautiful">Красивый</option>
-               <option value="formal">Формальный-официальный</option>
-           </select>
+            <select name="list2" id="list">
+                <option value="cool">Крутой</option>
+                <option value="beautiful">Красивый</option>
+                <option value="formal">Формальный-официальный</option>
+            </select>
         </div>
         <h3>АДАПТИВНОСТЬ</h3>
         <select name="list3" id="list">
@@ -99,36 +99,36 @@
             <option value="notsur">Не уверен в выборе</option>
         </select>
         <div class="final_numbers">
-            <table>
-                <tr>
-                    <th>Сроки</th>
-                </tr>
-                <tr>
-                    <th>Стоимость</th>
-                </tr>
-            </table>
+            <div classs="dates">
+                <span>Сроки</span>
+            </div>
+            <div class="proce">
+                <span>Стоимость</span>
+            </div>
         </div>
     </div>
-    
+
     <div class="Statistics">
         <h2>НЕМНОГО СТАТИСТИКИ</h2>
         <div class="stat_numbers">
-            <table>
-                <tr>
-                    <th>120</th>
-                    <th>4,600</th>
-                    <th>340</th>
-                    <th>23</th>
-                </tr>
-                <tr>
-                    <th>СЧАСТЛИВЫХ КЛИЕНТОВ</th>
-                    <th>ЧАСОВ РАБОТЫ</th>
-                    <th>ПРОЕКТОВ ЗАВЕРШЕНО</th>
-                    <th>НАГРАД ПОЛУЧЕНО</th>
-                </tr>
-            </table>
+            <div class="clients">
+                <h5>120</h5>
+                <span>Счатливых клиентов</span>
+            </div>
+            <div class="working_hours">
+                <h5>4,600</h5>
+                <span>Часов работы</span>
+            </div>
+            <div class="finished_projects">
+                <h5>340</h5>
+                <span>Проектов завершено</span>
+            </div>
+            <div class="achievements">
+                <h5>23</h5>
+                <span>Наград получено</span>
+            </div>
         </div>
-        
+
         <div class="reviews">
             <h2>ОТЗЫВЫ</h2>
             <div class="photo_man">
@@ -142,28 +142,22 @@
                 <input type="radio" name="Check" value="Checkbox3">
             </div>
         </div>
-        
+
     </div>
     <div class="mycontacts">
         <h2>МОИ КОНТАКТЫ</h2>
         <stan>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora minima aliquam nemo. Ratione, voluptatem, excepturi!</stan>
         <div class="Cont">
-            <table>
-                <tr>
-                    <th>Санкт-Петербург</th>
-                    <th>info@companyname.com</th>
-                    <th>+7 999 999-99-99</th>
-                </tr>
-            </table>
+            <h5>Санкт-Петербург</h5>
+            <h5>info@companyname.com</h5>
+            <h5>+7 999 999-99-99</h5>
         </div>
         <h3>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h3>
         <div class="name_mail">
-            <table>
-                <tr>
-                    <th><input type="text" name="name" placeholder="Имя"></th>
-                    <th><input type="text" name="email" placeholder="Email"></th>
-                </tr>
-            </table>
+            <th><input type="text" name="name" placeholder="Имя"></th>
+            <th><input type="text" name="email" placeholder="Email"></th>
+        </div>
+        <div class="text_area">
             <textarea name="mesage" id="1" cols="30" rows="10" placeholder="Сообщение"></textarea>
         </div>
         <div class="button">
@@ -173,9 +167,9 @@
     <div class="Google_maps">
         <img src="/my_first_project/src/img/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png" alt="map_photo">
     </div>
-<div class="Copyright">
-    <stan>Copyright 2021 Андрей Браун. Design by Web</stan>
-</div>
+    <div class="Copyright">
+        <stan>Copyright 2021 Андрей Браун. Design by Web</stan>
+    </div>
 </body>
 
 </html>
