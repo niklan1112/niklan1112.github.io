@@ -21,7 +21,7 @@ nav {
     padding-left: 432px;
 }
 
-.menu ul li{
+.menu ul li {
     float: left;
     line-height: 60px;
     color: #fff;
@@ -36,26 +36,26 @@ nav {
     background: url(../img/boy.png) 90% 100%/auto no-repeat, url(../img/bg.png) center/cover no-repeat;
 }
 
-.title-container {
-    float: right;
+.title_container {
+    float: left;
     margin: 432px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
 
 }
 
-.title-container h1 {
+.title_container h1 {
     font-size: 60px;
     font-weight: bold;
 }
 
-.title-container h4 {
+.title_container h4 {
     margin-top: 40px;
     font-size: 22px;
     color: 79818d;
 }
 
-.title-container input {
+.title_container input {
     height: 40px;
     text-align: center;
     border: 2px solid #6d7682;
@@ -63,6 +63,52 @@ nav {
     border-radius: 5px;
     color: #6d7682;
     font-size: 13px;
-    padding: 0px 16px;
-    margin-top: 50px 14px 0px 14px;
+    padding: 4px 16px;
+    margin-top: 40px;
+}
+
+
+.About_me h2 {
+    font-size: 40px;
+    font-weight: bold;
+    font: sans-serif;
+    color: #263244;
+    margin-top: 60px;
+    margin: 145px 0px 0px 650px;
+}
+
+
+.About_me {
+    background: url(../img/boy_circle.png) 60% 50%/auto no-repeat;
+    width: 75%;
+    height: 35%;
+}
+
+
+.Personal_info {
+    font-size: 20px;
+    font-weight: lighter;
+    font: sans-serif;
+    color: #3f495a;
+    margin: 286px 0px 0px 304px;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+.About_me input {
+    margin: 286px 0px 0px 650px;
+    text-align: center;
+    background: none;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 4px 16px;
+    margin-top: 40px;
+    font-weight: bold;
+    border: 3px solid #79808c;
+    font: sans-serif;
+    color: #79808c;
+    letter-spacing: 1.5px;
+
+
 }
