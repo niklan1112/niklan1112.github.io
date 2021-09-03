@@ -76,14 +76,9 @@ nav {
     margin-top: 60px;
     margin: 10px 0px 0px 650px;
 }
-
-
-.About_me {
-    background: url(../img/boy_circle.png) 60% 50%/auto no-repeat;
-    width: 75%;
-    height: 35%;
+.circled_photo{
+    margin: -200px 0px 0px -40px;
 }
-
 
 .Personal_info {
     font-size: 20px;
@@ -123,7 +118,7 @@ nav {
     font-weight: bold;
     font: sans-serif;
     color: #3f495a;
-    margin: 180px 0px 0px 640px;
+    text-align: center
 }
 .webdesign h4{
     font-size: 20px;
